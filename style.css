@@ -33,9 +33,9 @@ header div {
   margin: auto;
   background-image: linear-gradient(
     90deg,
-    #9572fc 0%,
-    #43e7ad 50.52%,
-    #e2d45c 100%
+    #e00ab9 0%,
+    #980505 50.52%,
+    #1be1f3 100%
   );
   border-radius: 50%;
   display: flex;
@@ -59,16 +59,16 @@ section {
   color: #fff;
   background-image: linear-gradient(
     90deg,
-    #9572fc 0%,
-    #43e7ad 50.52%,
-    #e2d45c 100%
+    #e00ab9 0%,
+    #980505 50.52%,
+    #1be1f3 100%
   );
   padding-top: 4px;
   border-radius: 10px;
 }
 
 section div {
-  background-color: #2a2634;
+  background-color: #090110;
   padding: 32px;
   padding-top: 24px;
   border-radius: 8px;
@@ -113,7 +113,7 @@ section ul li:hover {
 /* Profile image animation */
 
 header div {
-  animation: fromTop 0.7s 0.3s backwards;
+  animation: fromTop 0.7s 0.4s backwards;
 }
 
 main section {
@@ -154,4 +154,52 @@ main section:nth-child(3) {
     opacity: 1;
     transform: translateX(0);
   }
+}
+
+.social-list a {
+  font-size: 40px;
+}
+
+.social-list li {
+  transition: 0.3s;
+}
+
+.fa-imdb {
+  color: #ffd700;
+  transition: 0.3s;
+}
+
+.fa-imdb:hover {
+  color: #ffe140;
+  text-shadow: 0 0 10px #ffe140;
+}
+
+.fa-twitter {
+  color: #6269ff;
+  transition: 0.3s;
+}
+
+.fa-twitter:hover {
+  color: #babdff;
+  text-shadow: 0 0 10px #babdff;
+}
+
+.fa-instagram {
+  color: #ff00ff;
+  transition: 0.3s;
+}
+
+.fa-instagram:hover {
+  color: #ff90ff;
+  text-shadow: 0 0 10px #ff90ff;
+}
+
+.fa-spotify {
+  color: #16c300;
+  transition: 0.3s;
+}
+
+.fa-spotify:hover {
+  color: #49ff32;
+  text-shadow: 0 0 10px #49ff32;
 }
